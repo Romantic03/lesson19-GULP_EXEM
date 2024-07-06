@@ -1,0 +1,122 @@
+.banner {
+	height: 630px;
+	 background-image: url(../../img/img-cloud.png);
+ 
+
+	.box {
+		width: 700px;
+		h1 {
+			font-size: 47px;
+			letter-spacing: -1px;
+			color: #323538;
+			label {
+				color: #03a9f4;
+				margin-top: 130px;
+			}
+		}
+
+		.lineO {
+			margin-top: 30px;
+			border-bottom: 3px solid #f75d2d;
+			width: 50px;
+			display: inline-block;
+		}
+		.line {
+			border-bottom: 1px solid #afbcc2;
+			width: 495px;
+			display: inline-block;
+			margin-left: -4.5px;
+		}
+		p {
+			margin-top: 35px;
+			font-size: 20px;
+			line-height: 30px;
+			font-weight: 400;
+		}
+		.button {
+			margin-top: 20px;
+			display: block;
+			width: 220px;
+			height: 50px;
+			border-radius: 3px;
+			background: #f75d2d;
+			font-size: 14px;
+			text-transform: uppercase;
+			color: #ffffff;
+			font-weight: 600;
+			text-decoration: none;
+			text-align: center;
+			line-height: 50px;
+		}
+
+		.button:hover {
+			background: #f99d81;
+		}
+	}
+
+	.form {
+		margin: 0 auto;
+		margin-top: 65px;
+		display: flex;
+		align-items: center;
+		justify-content: space-evenly;
+		height: 135px;
+		width: 1200px;
+		background: #03a9f3;
+		position: relative;
+
+		img {
+			position: absolute;
+			top: -450px;
+			left: 800px;
+		}
+		p {
+			font-size: 13px;
+			color: #ffffff;
+			font-weight: 500;
+			margin-bottom: 5px;
+		}
+		select {
+			width: 200px;
+			height: 50px;
+			border-radius: 3px;
+			font-size: 13px;
+			color: #656a70;
+			font-weight: 400;
+			padding: 10px;
+			border: none;
+		}
+		input {
+			width: 200px;
+			height: 50px;
+			border-radius: 3px;
+			font-size: 13px;
+			color: #656a70;
+			font-weight: 400;
+			padding: 10px;
+			border: none;
+			text-align: center;
+		}
+		a {
+			width: 200px;
+			height: 50px;
+			display: block;
+			border-radius: 3px;
+			background: #0187c3;
+			font-size: 14px;
+			color: #fff;
+			font-weight: 500;
+			padding: 10px;
+			border: none;
+			text-align: center;
+			text-decoration: none;
+			line-height: 25px;
+			position: relative;
+			top: 12.5px;
+		}
+
+		a:hover {
+			background: #bfe9fb;
+		}
+	}
+}

@@ -9,7 +9,7 @@ ul,ol{
 
 h1{
   font-size: 35px;
-  font-family: Poppins-Bold;
+  // font-family: Poppins-Bold;
   color: #1e2021;
 }
 
@@ -45,7 +45,7 @@ h6{
 
 p{
   font-size: 14pt;
-  font-family: Poppins-Regular;
+  // font-family: Poppins-Regular;
   color: #51555a;
 }
 
@@ -53,4 +53,9 @@ p{
   font-size: 20pt;
   font-family: Poppins-Medium;
   color: #51555a;
+}
+
+.container{
+ width:1170px ; 
+
 }
