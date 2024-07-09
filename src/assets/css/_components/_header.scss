@@ -44,7 +44,28 @@ header {
 		.phone,
 		.burger {
 			line-height: 60px;
-			margin: 0 15px;
+			margin: 15px 15px;
+		}
+
+		.phone {
+			background-image: url(../img/phone.png);
+			width: 31px;
+			height: 31px;
+			display: block;
+			&:hover {
+				background-image: url(../img/phone-hover.png);
+			}
+		}
+
+		.burger {
+			background-image: url(../img/burger.png);
+			width: 22px;
+			height: 17px;
+			display: block;
+			margin-top: 22px;
+			&:hover {
+				background-image: url(../img/burger-hover.png);
+			}
 		}
 
 		.button {
@@ -65,20 +86,17 @@ header {
 			font-weight: 600;
 			text-align: center;
 			line-height: 40px;
-		}
-
-		.button:hover{
-			background: #bfe9fb;
+			&:hover {
+				background: #bfe9fb;
+			}
 		}
 
 		.Orange {
 			background-color: #f75e2d;
 			border: 1px solid #1088c7;
+			&:hover {
+				background: #f99d81;
+			}
 		}
-
-		.Orange:hover{
-			background: #f99d81;
-		}	
 	}
 }
-
