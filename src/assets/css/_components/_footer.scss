@@ -1,0 +1,137 @@
+footer {
+	background: #03a9f3;
+	height: 602px;
+  margin-top: 40px;
+	.foot {
+		display: flex;
+		height: 105px;
+		flex-wrap: wrap;
+		align-content: center;
+		justify-content: space-between;
+		.navFooter {
+			display: flex;
+			.ft1 {
+				font-size: 12px;
+				letter-spacing: 0px;
+				line-height: 62px;
+				text-transform: uppercase;
+				color: #ffffff;
+				font-weight: 500;
+				text-decoration: none;
+				margin: 0 10px;
+				display: inline-block;
+				width: 80px;
+				text-align: center;
+			}
+		}
+	}
+	.boxFooter {
+		height: 370px;
+		border-top: 1px solid #81d4f9;
+		border-bottom: 1px solid #81d4f9;
+		display: flex;
+		align-content: center;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		.boxF_1 {
+			width: 190px;
+			height: 255px;
+			h6 {
+				font-size: 16px;
+				color: #ffffff;
+				font-weight: 500;
+				margin-bottom: 32px;
+			}
+			p {
+				font-size: 13px;
+				line-height: 28px;
+				color: #ffffff;
+				font-weight: 400;
+			}
+		}
+	}
+	.boxEndFooter {
+		display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+		height: 125px;
+		.boxF_2 {
+			width: 253px;
+			.pFoot {
+				font-size: 13px;
+				line-height: 21px;
+				color: #ffffff;
+			}
+			.icon {
+				display: flex;
+				justify-content: space-between;
+				margin: 0 40px;
+				.facebook {
+					background-image: url(../img/facebook.png);
+					display: block;
+					width: 34px;
+					height: 34px;
+					&:hover {
+						background-image: url(../img/facebook-hover.png);
+					}
+				}
+				.twiteer {
+					background-image: url(../img/twitter.png);
+					display: block;
+					width: 34px;
+					height: 34px;
+					&:hover {
+						background-image: url(../img/twitter-hover.png);
+					}
+				}
+				.pinteres {
+					background-image: url(../img/pinterest.png);
+					display: block;
+					width: 34px;
+					height: 34px;
+					&:hover {
+						background-image: url(../img/pinterest-hover.png);
+					}
+				}
+				.google {
+					background-image: url(../img/google-plus.png);
+					display: block;
+					width: 34px;
+					height: 34px;
+					&:hover {
+						background-image: url(../img/google-plus-hover.png);
+					}
+				}
+			}
+			.tel {
+				background-image: url(../img/footer-phone.png);
+				display: block;
+        float: left;
+				width: 31px;
+				height: 31px;
+        margin: 0 30px 0 40px;
+			}
+			.telp {
+				font-size: 13px;
+				line-height: 16px;
+				color: #ffffff;
+				font-weight: 500;
+			}
+			.numberf {
+				font-size: 16px;
+				line-height: 16px;
+				text-transform: uppercase;
+				color: #ffffff;
+			}
+      .email{
+        background-image: url(../img/footer-email.png);
+        display: block;
+        float: left;
+				width: 31px;
+				height: 31px;
+        margin: 0 30px 0 40px;
+      }
+		}
+	}
+}
