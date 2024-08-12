@@ -1,7 +1,7 @@
 footer {
 	background: #03a9f3;
 	height: 602px;
-  margin-top: 40px;
+	margin-top: 40px;
 	.foot {
 		display: flex;
 		height: 105px;
@@ -22,6 +22,9 @@ footer {
 				display: inline-block;
 				width: 80px;
 				text-align: center;
+			}
+			.ft1:hover {
+				color: #005cda;
 			}
 		}
 	}
@@ -52,9 +55,9 @@ footer {
 	}
 	.boxEndFooter {
 		display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		align-items: center;
 		height: 125px;
 		.boxF_2 {
 			width: 253px;
@@ -107,10 +110,10 @@ footer {
 			.tel {
 				background-image: url(../img/footer-phone.png);
 				display: block;
-        float: left;
+				float: left;
 				width: 31px;
 				height: 31px;
-        margin: 0 30px 0 40px;
+				margin: 0 30px 0 40px;
 			}
 			.telp {
 				font-size: 13px;
@@ -124,14 +127,73 @@ footer {
 				text-transform: uppercase;
 				color: #ffffff;
 			}
-      .email{
-        background-image: url(../img/footer-email.png);
-        display: block;
-        float: left;
+			.email {
+				background-image: url(../img/footer-email.png);
+				display: block;
+				float: left;
 				width: 31px;
 				height: 31px;
-        margin: 0 30px 0 40px;
-      }
+				margin: 0 30px 0 40px;
+			}
+		}
+	}
+}
+@media (max-width: 575px) {
+	footer {
+		height: 80px;
+		margin-top: 0;
+		.foot {
+			height: 0;
+			.navFooter {
+				border-bottom: 1px solid #81d4f9;
+			}
+		}
+		.boxEndFooter {
+			height: 80px;
+		}
+	}
+}
+@media (min-width: 576px) and (max-width: 767px) {
+	footer {
+		height: 80px;
+		.foot {
+			height: 0;
+			.navFooter {
+				border-bottom: 1px solid #81d4f9;
+			}
+		}
+		.boxEndFooter {
+			height: 80px;
+		}
+		.ballon_pl {
+			img {
+				position: fixed;
+				height: 100px;
+				top: 110px;
+				right: 50px;
+			}
+		}
+	}
+}
+@media (min-width: 768px) and (max-width: 992px) {
+	footer {
+		height: 150px;
+		.foot {
+			height: 70px;
+			.navFooter {
+				border-bottom: 1px solid #81d4f9;
+			}
+		}
+		.boxEndFooter {
+			height: 80px;
+		}
+		.ballon_pl {
+			img {
+				position: fixed;
+				height: 100px;
+				top: 110px;
+				right: 50px;
+			}
 		}
 	}
 }

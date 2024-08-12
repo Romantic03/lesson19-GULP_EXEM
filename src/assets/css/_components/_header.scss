@@ -23,6 +23,11 @@ header {
 			position: relative;
 		}
 
+		.menu:hover,
+		.menu_1:hover {
+			color: #005cda;
+		}
+
 		.menu::after {
 			content: '';
 			width: 0;
@@ -39,6 +44,44 @@ header {
 		.menu:hover::after {
 			content: '';
 			transform: rotate(0deg);
+			border-bottom: 5px solid #005cda;
+		}
+
+		.sub_menu_link {
+			position: relative;
+		}
+
+		.sub_menu {
+			background: #03a9f3;
+			position: absolute;
+			left: 0;
+			top: 100%;
+			z-index: 5;
+			width: 100px;
+			transform: scaleY(0);
+			transform-origin: 0 0;
+			transition: 0.5s ease-in-out;
+			text-align: center;
+			margin: 0 10px;
+		}
+
+		.sub_menu a {
+			font-size: 12px;
+			letter-spacing: 0px;
+			line-height: 30px;
+			text-transform: uppercase;
+			color: #ffffff;
+			font-weight: 600;
+			text-decoration: none;
+		}
+
+		.sub_menu a:hover{
+			color: #005cda;
+		}
+
+		.sub_menu_link:hover .sub_menu {
+			opacity: 1;
+			transform: scaleY(1);
 		}
 
 		.phone,
